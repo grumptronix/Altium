@@ -1,0 +1,49 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Y:\Documents\github\grumptronix\Altium\Library/;Extended Properties="Text;HDR=Yes;FMT=Delimited";Persist Security Info=False
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=
+LibraryDatabasePath=
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=Capacitor#csv
+[Table1]
+SchemaName=
+TableName=Capacitor#csv
+Enabled=True
+UserWhere=1
+UserWhereText=[IPN] = '{IPN}'
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=77|Library Path0=130|Footprint Ref0=114|Footprint Path0=130|Description0=145|Footprint Ref 20=111|Footprint Path 20=130|Footprint Ref 30=116|Footprint Path 30=130|IPN0=62|Manufacturer0=179|Manufacturer Part Number0=160|Value0=52|HelpUrl0=482|ComponentLink1Description0=170|ComponentLink1URL0=482
+[FieldMap1]
+Options=FieldName=Capacitor#csv.Library Ref|TableNameOnly=Capacitor#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Capacitor#csv.Library Path|TableNameOnly=Capacitor#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Capacitor#csv.Footprint Ref|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Capacitor#csv.Footprint Path|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Capacitor#csv.Description|TableNameOnly=Capacitor#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Capacitor#csv.Footprint Ref 2|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Capacitor#csv.Footprint Path 2|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Capacitor#csv.Footprint Ref 3|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Capacitor#csv.Footprint Path 3|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
