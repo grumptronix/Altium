@@ -1,0 +1,3 @@
+IPN,Description,Manufacturer,Manufacturer Part Number,Library Ref,Library Path,Footprint Ref,Footprint Path,Footprint Ref 2,Footprint Path 2,Footprint Ref 3,Footprint Path 3,Value,HelpUrl,ComponentLink1Description,ComponentLink1URL
+DIODE-00001,DIODE SCHOTTKY 30V 200MA,Toshiba,"CUS520,H3F",Schottky,SchLib\Diode.Schlib,,,,,,,"CUS520,H3F",https://toshiba.semicon-storage.com/info/docget.jsp?did=7041&prodName=CUS520,Datasheet,https://toshiba.semicon-storage.com/info/docget.jsp?did=7041&prodName=CUS520
+DIODE-00002,DIODE GEN PURP 100V 300MA SOD123,Diodes Incorporated,1N4148W-7-F,Diode,SchLib\Diode.Schlib,,,,,,,,,,

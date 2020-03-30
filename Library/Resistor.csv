@@ -1,0 +1,2 @@
+IPN,Description,Manufacturer,Manufacturer Part Number,Library Ref,Library Path,Footprint Ref,Footprint Path,Footprint Ref 2,Footprint Path 2,Footprint Ref 3,Footprint Path 3,Value,HelpUrl,ComponentLink1Description,ComponentLink1URL
+RES-00001,RES SMD 10K OHM 1% 1/8W 0805,Yageo,RC0805FR-0710KL,Resistor,SchLib\Resistor.SchLib,0805_RESC2012X06N,PcbLib\Resistor.PcbLib,,,,,10k,,,

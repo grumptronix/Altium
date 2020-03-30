@@ -1,0 +1,4 @@
+IPN,Description,Manufacturer,Manufacturer Part Number,Library Ref,Library Path,Footprint Ref,Footprint Path,Footprint Ref 2,Footprint Path 2,Footprint Ref 3,Footprint Path 3,Value,HelpUrl,ComponentLink1Description,ComponentLink1URL
+IC-00001,IC SHIFT REGISTER 8STAGE 16SOIC,Texas Instruments,CD4021BQDRQ1,4021,SchLib\IC.SchLib,TI_R_PDSO-G16_SOIC127P600X175-16N,PcbLib\IC.PcbLib,,,,,4021,http://www.ti.com/lit/ds/symlink/cd4021b-q1.pdf,Datasheet,http://www.ti.com/lit/ds/symlink/cd4021b-q1.pdf
+IC-00002,OPTOISO 3.75KV PSH PULL SO6-5,Toshiba Semiconductor and Storage,"TLP2361(TPL,E",OPTOISOLATOR,SchLib\IC.SchLib,SOIC127P700X220-6N,PcbLib\IC.PcbLib,,,,,,,,
+IC-00003,IC BUF NON-INVERT 5.5V SOT23-5,Texas Instruments,SN74LVC1G17DBVR,SCHMITT,SchLib\IC.SchLib,,,,,,,,,,

@@ -1,0 +1,2 @@
+IPN,Description,Manufacturer,Manufacturer Part Number,Library Ref,Library Path,Footprint Ref,Footprint Path,Footprint Ref 2,Footprint Path 2,Footprint Ref 3,Footprint Path 3,Value,HelpUrl,ComponentLink1Description,ComponentLink1URL
+NON-00001,300mil Carbon Pill Pattern,NA,NA,Button,SchLib\Switch.SchLib,300MILPATTERN,PcbLib\NonParts.PcbLib,,,,,BTN,,,

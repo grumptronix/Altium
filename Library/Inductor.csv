@@ -1,0 +1,2 @@
+IPN,Description,Manufacturer,Manufacturer Part Number,Inductance,Imax,Isat,DCR,Library Ref,Library Path,Footprint Ref,Footprint Path,Footprint Ref 2,Footprint Path 2,Footprint Ref 3,Footprint Path 3,Value,HelpUrl,ComponentLink1Description,ComponentLink1URL
+IND-00001,FIXED IND 4.7UH 1.7A 84 MOHM SMD,Taiyo Yuden,NRS4018T4R7MDGJ,4.7uH,1.7A,2A,84mOhm,Inductor,SchLib\Inductor.Schlib,,,,,,,NRS4018T4R7MDGJ,https://www.yuden.co.jp/productdata/catalog/wound04_e.pdf,Datasheet,https://www.yuden.co.jp/productdata/catalog/wound04_e.pdf
