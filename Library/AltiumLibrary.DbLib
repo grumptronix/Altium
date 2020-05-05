@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Capacitor#csv
+LastFocusedTable=FerriteBead#csv
 [Table1]
 SchemaName=
 TableName=CAP-KEM-GP-0402#csv
@@ -34,68 +34,92 @@ UserWhere=0
 UserWhereText=
 [Table3]
 SchemaName=
-TableName=CAP-YAGEO-CC-0805#csv
+TableName=CAP-YAGEO-CC-0603#csv
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table4]
 SchemaName=
+TableName=CAP-YAGEO-CC-0805#csv
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table5]
+SchemaName=
 TableName=Capacitor#csv
 Enabled=True
 UserWhere=1
 UserWhereText=[IPN] = '{IPN}'
-[Table5]
+[Table6]
 SchemaName=
 TableName=Connector#csv
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table6]
-SchemaName=
-TableName=Diode#csv
-Enabled=True
-UserWhere=0
-UserWhereText=
 [Table7]
 SchemaName=
-TableName=IC#csv
+TableName=Crystal#csv
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table8]
 SchemaName=
-TableName=IC-POWER#csv
+TableName=Diode#csv
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table9]
 SchemaName=
-TableName=IC-SENSOR#csv
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table10]
-SchemaName=
-TableName=Inductor#csv
+TableName=FerriteBead#csv
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=IPN0=61|Description0=200|Library Ref0=77|Library Path0=123|Footprint Ref0=92|Footprint Path0=98|Footprint Ref 20=101|Footprint Path 20=107|Footprint Ref 30=101|Footprint Path 30=107|Manufacturer0=93|Manufacturer Part Number0=160|Inductance0=80|Imax0=46|Isat0=41|DCR0=54|Value0=107|HelpUrl0=331|ComponentLink1Description0=170|ComponentLink1URL0=331
+BrowserOrder_Visible=IPN0=40|Description0=173|Manufacturer0=103|Manufacturer Part Number0=160|Impedance0=97|Irated0=53|DCR0=60|Library Ref0=77|Library Path0=123|Footprint Ref0=168|Footprint Path0=123|Footprint Ref 20=101|Footprint Path 20=107|Footprint Ref 30=101|Footprint Path 30=107|Value0=52|HelpUrl0=62|ComponentLink1Description0=170|ComponentLink1URL0=131
+[Table10]
+SchemaName=
+TableName=HeaderPins#csv
+Enabled=True
+UserWhere=0
+UserWhereText=
 [Table11]
 SchemaName=
-TableName=NonParts#csv
+TableName=IC#csv
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table12]
 SchemaName=
-TableName=Resistor#csv
+TableName=IC-POWER#csv
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table13]
+SchemaName=
+TableName=IC-SENSOR#csv
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table14]
+SchemaName=
+TableName=Inductor#csv
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table15]
+SchemaName=
+TableName=NonParts#csv
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table16]
+SchemaName=
+TableName=Resistor#csv
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table17]
 SchemaName=
 TableName=Resistor-YageoRC-0603#csv
 Enabled=True
@@ -142,214 +166,296 @@ Options=FieldName=CAP-MUR-GRM-0805#csv.Footprint Ref 3|TableNameOnly=CAP-MUR-GRM
 [FieldMap20]
 Options=FieldName=CAP-MUR-GRM-0805#csv.Footprint Path 3|TableNameOnly=CAP-MUR-GRM-0805#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap21]
-Options=FieldName=CAP-YAGEO-CC-0805#csv.IPN|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0603#csv.IPN|TableNameOnly=CAP-YAGEO-CC-0603#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap22]
-Options=FieldName=CAP-YAGEO-CC-0805#csv.Description|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0603#csv.Description|TableNameOnly=CAP-YAGEO-CC-0603#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap23]
-Options=FieldName=CAP-YAGEO-CC-0805#csv.Library Ref|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0603#csv.Library Ref|TableNameOnly=CAP-YAGEO-CC-0603#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap24]
-Options=FieldName=CAP-YAGEO-CC-0805#csv.Library Path|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0603#csv.Library Path|TableNameOnly=CAP-YAGEO-CC-0603#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap25]
-Options=FieldName=CAP-YAGEO-CC-0805#csv.Footprint Ref|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0603#csv.Footprint Ref|TableNameOnly=CAP-YAGEO-CC-0603#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap26]
-Options=FieldName=CAP-YAGEO-CC-0805#csv.Footprint Path|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0603#csv.Footprint Path|TableNameOnly=CAP-YAGEO-CC-0603#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap27]
-Options=FieldName=CAP-YAGEO-CC-0805#csv.Footprint Ref 2|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0603#csv.Footprint Ref 2|TableNameOnly=CAP-YAGEO-CC-0603#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap28]
-Options=FieldName=CAP-YAGEO-CC-0805#csv.Footprint Path 2|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0603#csv.Footprint Path 2|TableNameOnly=CAP-YAGEO-CC-0603#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap29]
-Options=FieldName=CAP-YAGEO-CC-0805#csv.Footprint Ref 3|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0603#csv.Footprint Ref 3|TableNameOnly=CAP-YAGEO-CC-0603#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap30]
-Options=FieldName=CAP-YAGEO-CC-0805#csv.Footprint Path 3|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0603#csv.Footprint Path 3|TableNameOnly=CAP-YAGEO-CC-0603#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap31]
-Options=FieldName=Capacitor#csv.Library Ref|TableNameOnly=Capacitor#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0805#csv.IPN|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap32]
-Options=FieldName=Capacitor#csv.Library Path|TableNameOnly=Capacitor#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0805#csv.Description|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap33]
-Options=FieldName=Capacitor#csv.Footprint Ref|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0805#csv.Library Ref|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap34]
-Options=FieldName=Capacitor#csv.Footprint Path|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0805#csv.Library Path|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap35]
-Options=FieldName=Capacitor#csv.Description|TableNameOnly=Capacitor#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0805#csv.Footprint Ref|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap36]
-Options=FieldName=Capacitor#csv.Footprint Ref 2|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0805#csv.Footprint Path|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap37]
-Options=FieldName=Capacitor#csv.Footprint Path 2|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0805#csv.Footprint Ref 2|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap38]
-Options=FieldName=Capacitor#csv.Footprint Ref 3|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0805#csv.Footprint Path 2|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap39]
-Options=FieldName=Capacitor#csv.Footprint Path 3|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0805#csv.Footprint Ref 3|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap40]
-Options=FieldName=Connector#csv.IPN|TableNameOnly=Connector#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CAP-YAGEO-CC-0805#csv.Footprint Path 3|TableNameOnly=CAP-YAGEO-CC-0805#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap41]
-Options=FieldName=Connector#csv.Description|TableNameOnly=Connector#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor#csv.Library Ref|TableNameOnly=Capacitor#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap42]
-Options=FieldName=Connector#csv.Library Ref|TableNameOnly=Connector#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor#csv.Library Path|TableNameOnly=Capacitor#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap43]
-Options=FieldName=Connector#csv.Library Path|TableNameOnly=Connector#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor#csv.Footprint Ref|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap44]
-Options=FieldName=Connector#csv.Footprint Ref|TableNameOnly=Connector#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor#csv.Footprint Path|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap45]
-Options=FieldName=Connector#csv.Footprint Path|TableNameOnly=Connector#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor#csv.Description|TableNameOnly=Capacitor#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap46]
-Options=FieldName=Connector#csv.Footprint Ref 2|TableNameOnly=Connector#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor#csv.Footprint Ref 2|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap47]
-Options=FieldName=Connector#csv.Footprint Path 2|TableNameOnly=Connector#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor#csv.Footprint Path 2|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap48]
-Options=FieldName=Connector#csv.Footprint Ref 3|TableNameOnly=Connector#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor#csv.Footprint Ref 3|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap49]
-Options=FieldName=Connector#csv.Footprint Path 3|TableNameOnly=Connector#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor#csv.Footprint Path 3|TableNameOnly=Capacitor#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap50]
-Options=FieldName=Diode#csv.IPN|TableNameOnly=Diode#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connector#csv.IPN|TableNameOnly=Connector#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap51]
-Options=FieldName=Diode#csv.Description|TableNameOnly=Diode#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connector#csv.Description|TableNameOnly=Connector#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap52]
-Options=FieldName=Diode#csv.Library Ref|TableNameOnly=Diode#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connector#csv.Library Ref|TableNameOnly=Connector#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap53]
-Options=FieldName=Diode#csv.Library Path|TableNameOnly=Diode#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connector#csv.Library Path|TableNameOnly=Connector#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap54]
-Options=FieldName=Diode#csv.Footprint Ref|TableNameOnly=Diode#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connector#csv.Footprint Ref|TableNameOnly=Connector#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap55]
-Options=FieldName=Diode#csv.Footprint Path|TableNameOnly=Diode#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connector#csv.Footprint Path|TableNameOnly=Connector#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap56]
-Options=FieldName=Diode#csv.Footprint Ref 2|TableNameOnly=Diode#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connector#csv.Footprint Ref 2|TableNameOnly=Connector#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap57]
-Options=FieldName=Diode#csv.Footprint Path 2|TableNameOnly=Diode#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connector#csv.Footprint Path 2|TableNameOnly=Connector#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap58]
-Options=FieldName=Diode#csv.Footprint Ref 3|TableNameOnly=Diode#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connector#csv.Footprint Ref 3|TableNameOnly=Connector#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap59]
-Options=FieldName=Diode#csv.Footprint Path 3|TableNameOnly=Diode#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connector#csv.Footprint Path 3|TableNameOnly=Connector#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap60]
-Options=FieldName=IC#csv.IPN|TableNameOnly=IC#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal#csv.IPN|TableNameOnly=Crystal#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap61]
-Options=FieldName=IC#csv.Description|TableNameOnly=IC#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal#csv.Description|TableNameOnly=Crystal#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap62]
-Options=FieldName=IC#csv.Library Ref|TableNameOnly=IC#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal#csv.Library Ref|TableNameOnly=Crystal#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap63]
-Options=FieldName=IC#csv.Library Path|TableNameOnly=IC#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal#csv.Library Path|TableNameOnly=Crystal#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap64]
-Options=FieldName=IC#csv.Footprint Ref|TableNameOnly=IC#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal#csv.Footprint Ref|TableNameOnly=Crystal#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap65]
-Options=FieldName=IC#csv.Footprint Path|TableNameOnly=IC#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal#csv.Footprint Path|TableNameOnly=Crystal#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap66]
-Options=FieldName=IC#csv.Footprint Ref 2|TableNameOnly=IC#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal#csv.Footprint Ref 2|TableNameOnly=Crystal#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap67]
-Options=FieldName=IC#csv.Footprint Path 2|TableNameOnly=IC#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal#csv.Footprint Path 2|TableNameOnly=Crystal#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap68]
-Options=FieldName=IC#csv.Footprint Ref 3|TableNameOnly=IC#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal#csv.Footprint Ref 3|TableNameOnly=Crystal#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap69]
-Options=FieldName=IC#csv.Footprint Path 3|TableNameOnly=IC#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Crystal#csv.Footprint Path 3|TableNameOnly=Crystal#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap70]
-Options=FieldName=IC-POWER#csv.Description|TableNameOnly=IC-POWER#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode#csv.IPN|TableNameOnly=Diode#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap71]
-Options=FieldName=IC-POWER#csv.Library Ref|TableNameOnly=IC-POWER#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode#csv.Description|TableNameOnly=Diode#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap72]
-Options=FieldName=IC-POWER#csv.Library Path|TableNameOnly=IC-POWER#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode#csv.Library Ref|TableNameOnly=Diode#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap73]
-Options=FieldName=IC-POWER#csv.Footprint Ref|TableNameOnly=IC-POWER#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode#csv.Library Path|TableNameOnly=Diode#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap74]
-Options=FieldName=IC-POWER#csv.Footprint Path|TableNameOnly=IC-POWER#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode#csv.Footprint Ref|TableNameOnly=Diode#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap75]
-Options=FieldName=IC-POWER#csv.Footprint Path 2|TableNameOnly=IC-POWER#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode#csv.Footprint Path|TableNameOnly=Diode#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap76]
-Options=FieldName=IC-POWER#csv.Footprint Ref 3|TableNameOnly=IC-POWER#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode#csv.Footprint Ref 2|TableNameOnly=Diode#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap77]
-Options=FieldName=IC-POWER#csv.Footprint Path 3|TableNameOnly=IC-POWER#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode#csv.Footprint Path 2|TableNameOnly=Diode#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap78]
-Options=FieldName=IC-POWER#csv.IPN|TableNameOnly=IC-POWER#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode#csv.Footprint Ref 3|TableNameOnly=Diode#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap79]
-Options=FieldName=IC-POWER#csv.Footprint Ref 2|TableNameOnly=IC-POWER#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diode#csv.Footprint Path 3|TableNameOnly=Diode#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap80]
-Options=FieldName=IC-SENSOR#csv.Description|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FerriteBead#csv.IPN|TableNameOnly=FerriteBead#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap81]
-Options=FieldName=IC-SENSOR#csv.Library Ref|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FerriteBead#csv.Description|TableNameOnly=FerriteBead#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap82]
-Options=FieldName=IC-SENSOR#csv.Library Path|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FerriteBead#csv.Library Ref|TableNameOnly=FerriteBead#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap83]
-Options=FieldName=IC-SENSOR#csv.Footprint Ref|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FerriteBead#csv.Library Path|TableNameOnly=FerriteBead#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap84]
-Options=FieldName=IC-SENSOR#csv.Footprint Path|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FerriteBead#csv.Footprint Ref|TableNameOnly=FerriteBead#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap85]
-Options=FieldName=IC-SENSOR#csv.Footprint Ref 2|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FerriteBead#csv.Footprint Path|TableNameOnly=FerriteBead#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap86]
-Options=FieldName=IC-SENSOR#csv.Footprint Path 2|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FerriteBead#csv.Footprint Ref 2|TableNameOnly=FerriteBead#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap87]
-Options=FieldName=IC-SENSOR#csv.Footprint Ref 3|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FerriteBead#csv.Footprint Path 2|TableNameOnly=FerriteBead#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap88]
-Options=FieldName=IC-SENSOR#csv.Footprint Path 3|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FerriteBead#csv.Footprint Ref 3|TableNameOnly=FerriteBead#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap89]
-Options=FieldName=IC-SENSOR#csv.IPN|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FerriteBead#csv.Footprint Path 3|TableNameOnly=FerriteBead#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap90]
-Options=FieldName=Inductor#csv.IPN|TableNameOnly=Inductor#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HeaderPins#csv.IPN|TableNameOnly=HeaderPins#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap91]
-Options=FieldName=Inductor#csv.Description|TableNameOnly=Inductor#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HeaderPins#csv.Description|TableNameOnly=HeaderPins#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap92]
-Options=FieldName=Inductor#csv.Library Ref|TableNameOnly=Inductor#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HeaderPins#csv.Library Ref|TableNameOnly=HeaderPins#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap93]
-Options=FieldName=Inductor#csv.Library Path|TableNameOnly=Inductor#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HeaderPins#csv.Library Path|TableNameOnly=HeaderPins#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap94]
-Options=FieldName=Inductor#csv.Footprint Ref|TableNameOnly=Inductor#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HeaderPins#csv.Footprint Ref|TableNameOnly=HeaderPins#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap95]
-Options=FieldName=Inductor#csv.Footprint Path|TableNameOnly=Inductor#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HeaderPins#csv.Footprint Path|TableNameOnly=HeaderPins#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap96]
-Options=FieldName=Inductor#csv.Footprint Ref 2|TableNameOnly=Inductor#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HeaderPins#csv.Footprint Ref 2|TableNameOnly=HeaderPins#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap97]
-Options=FieldName=Inductor#csv.Footprint Path 2|TableNameOnly=Inductor#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HeaderPins#csv.Footprint Path 2|TableNameOnly=HeaderPins#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap98]
-Options=FieldName=Inductor#csv.Footprint Ref 3|TableNameOnly=Inductor#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HeaderPins#csv.Footprint Ref 3|TableNameOnly=HeaderPins#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap99]
-Options=FieldName=Inductor#csv.Footprint Path 3|TableNameOnly=Inductor#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=HeaderPins#csv.Footprint Path 3|TableNameOnly=HeaderPins#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap100]
-Options=FieldName=NonParts#csv.IPN|TableNameOnly=NonParts#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC#csv.IPN|TableNameOnly=IC#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap101]
-Options=FieldName=NonParts#csv.Description|TableNameOnly=NonParts#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC#csv.Description|TableNameOnly=IC#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap102]
-Options=FieldName=NonParts#csv.Library Ref|TableNameOnly=NonParts#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC#csv.Library Ref|TableNameOnly=IC#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap103]
-Options=FieldName=NonParts#csv.Library Path|TableNameOnly=NonParts#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC#csv.Library Path|TableNameOnly=IC#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap104]
-Options=FieldName=NonParts#csv.Footprint Ref|TableNameOnly=NonParts#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC#csv.Footprint Ref|TableNameOnly=IC#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap105]
-Options=FieldName=NonParts#csv.Footprint Path|TableNameOnly=NonParts#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC#csv.Footprint Path|TableNameOnly=IC#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap106]
-Options=FieldName=NonParts#csv.Footprint Ref 2|TableNameOnly=NonParts#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC#csv.Footprint Ref 2|TableNameOnly=IC#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap107]
-Options=FieldName=NonParts#csv.Footprint Path 2|TableNameOnly=NonParts#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC#csv.Footprint Path 2|TableNameOnly=IC#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap108]
-Options=FieldName=NonParts#csv.Footprint Ref 3|TableNameOnly=NonParts#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC#csv.Footprint Ref 3|TableNameOnly=IC#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap109]
-Options=FieldName=NonParts#csv.Footprint Path 3|TableNameOnly=NonParts#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC#csv.Footprint Path 3|TableNameOnly=IC#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap110]
-Options=FieldName=Resistor#csv.IPN|TableNameOnly=Resistor#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-POWER#csv.Description|TableNameOnly=IC-POWER#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap111]
-Options=FieldName=Resistor#csv.Description|TableNameOnly=Resistor#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-POWER#csv.Library Ref|TableNameOnly=IC-POWER#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap112]
-Options=FieldName=Resistor#csv.Library Ref|TableNameOnly=Resistor#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-POWER#csv.Library Path|TableNameOnly=IC-POWER#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap113]
-Options=FieldName=Resistor#csv.Library Path|TableNameOnly=Resistor#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-POWER#csv.Footprint Ref|TableNameOnly=IC-POWER#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap114]
-Options=FieldName=Resistor#csv.Footprint Ref|TableNameOnly=Resistor#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-POWER#csv.Footprint Path|TableNameOnly=IC-POWER#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap115]
-Options=FieldName=Resistor#csv.Footprint Path|TableNameOnly=Resistor#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-POWER#csv.Footprint Path 2|TableNameOnly=IC-POWER#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap116]
-Options=FieldName=Resistor#csv.Footprint Ref 2|TableNameOnly=Resistor#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-POWER#csv.Footprint Ref 3|TableNameOnly=IC-POWER#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap117]
-Options=FieldName=Resistor#csv.Footprint Path 2|TableNameOnly=Resistor#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-POWER#csv.Footprint Path 3|TableNameOnly=IC-POWER#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap118]
-Options=FieldName=Resistor#csv.Footprint Ref 3|TableNameOnly=Resistor#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-POWER#csv.IPN|TableNameOnly=IC-POWER#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap119]
-Options=FieldName=Resistor#csv.Footprint Path 3|TableNameOnly=Resistor#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-POWER#csv.Footprint Ref 2|TableNameOnly=IC-POWER#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap120]
-Options=FieldName=Resistor-YageoRC-0603#csv.IPN|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-SENSOR#csv.Description|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap121]
-Options=FieldName=Resistor-YageoRC-0603#csv.Description|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-SENSOR#csv.Library Ref|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap122]
-Options=FieldName=Resistor-YageoRC-0603#csv.Library Ref|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-SENSOR#csv.Library Path|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap123]
-Options=FieldName=Resistor-YageoRC-0603#csv.Library Path|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-SENSOR#csv.Footprint Ref|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap124]
-Options=FieldName=Resistor-YageoRC-0603#csv.Footprint Path|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-SENSOR#csv.Footprint Path|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap125]
-Options=FieldName=Resistor-YageoRC-0603#csv.Footprint Path 2|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-SENSOR#csv.Footprint Ref 2|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap126]
+Options=FieldName=IC-SENSOR#csv.Footprint Path 2|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap127]
+Options=FieldName=IC-SENSOR#csv.Footprint Ref 3|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap128]
+Options=FieldName=IC-SENSOR#csv.Footprint Path 3|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap129]
+Options=FieldName=IC-SENSOR#csv.IPN|TableNameOnly=IC-SENSOR#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap130]
+Options=FieldName=Inductor#csv.IPN|TableNameOnly=Inductor#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap131]
+Options=FieldName=Inductor#csv.Description|TableNameOnly=Inductor#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap132]
+Options=FieldName=Inductor#csv.Library Ref|TableNameOnly=Inductor#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap133]
+Options=FieldName=Inductor#csv.Library Path|TableNameOnly=Inductor#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap134]
+Options=FieldName=Inductor#csv.Footprint Ref|TableNameOnly=Inductor#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap135]
+Options=FieldName=Inductor#csv.Footprint Path|TableNameOnly=Inductor#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap136]
+Options=FieldName=Inductor#csv.Footprint Ref 2|TableNameOnly=Inductor#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap137]
+Options=FieldName=Inductor#csv.Footprint Path 2|TableNameOnly=Inductor#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap138]
+Options=FieldName=Inductor#csv.Footprint Ref 3|TableNameOnly=Inductor#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap139]
+Options=FieldName=Inductor#csv.Footprint Path 3|TableNameOnly=Inductor#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap140]
+Options=FieldName=NonParts#csv.IPN|TableNameOnly=NonParts#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap141]
+Options=FieldName=NonParts#csv.Description|TableNameOnly=NonParts#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap142]
+Options=FieldName=NonParts#csv.Library Ref|TableNameOnly=NonParts#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap143]
+Options=FieldName=NonParts#csv.Library Path|TableNameOnly=NonParts#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap144]
+Options=FieldName=NonParts#csv.Footprint Ref|TableNameOnly=NonParts#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap145]
+Options=FieldName=NonParts#csv.Footprint Path|TableNameOnly=NonParts#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap146]
+Options=FieldName=NonParts#csv.Footprint Ref 2|TableNameOnly=NonParts#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap147]
+Options=FieldName=NonParts#csv.Footprint Path 2|TableNameOnly=NonParts#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap148]
+Options=FieldName=NonParts#csv.Footprint Ref 3|TableNameOnly=NonParts#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap149]
+Options=FieldName=NonParts#csv.Footprint Path 3|TableNameOnly=NonParts#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap150]
+Options=FieldName=Resistor#csv.IPN|TableNameOnly=Resistor#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap151]
+Options=FieldName=Resistor#csv.Description|TableNameOnly=Resistor#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap152]
+Options=FieldName=Resistor#csv.Library Ref|TableNameOnly=Resistor#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap153]
+Options=FieldName=Resistor#csv.Library Path|TableNameOnly=Resistor#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap154]
+Options=FieldName=Resistor#csv.Footprint Ref|TableNameOnly=Resistor#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap155]
+Options=FieldName=Resistor#csv.Footprint Path|TableNameOnly=Resistor#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap156]
+Options=FieldName=Resistor#csv.Footprint Ref 2|TableNameOnly=Resistor#csv|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap157]
+Options=FieldName=Resistor#csv.Footprint Path 2|TableNameOnly=Resistor#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap158]
+Options=FieldName=Resistor#csv.Footprint Ref 3|TableNameOnly=Resistor#csv|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap159]
+Options=FieldName=Resistor#csv.Footprint Path 3|TableNameOnly=Resistor#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap160]
+Options=FieldName=Resistor-YageoRC-0603#csv.IPN|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=IPN|FieldType=0|ParameterName=IPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap161]
+Options=FieldName=Resistor-YageoRC-0603#csv.Description|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap162]
+Options=FieldName=Resistor-YageoRC-0603#csv.Library Ref|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap163]
+Options=FieldName=Resistor-YageoRC-0603#csv.Library Path|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap164]
+Options=FieldName=Resistor-YageoRC-0603#csv.Footprint Path|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap165]
+Options=FieldName=Resistor-YageoRC-0603#csv.Footprint Path 2|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap166]
 Options=FieldName=Resistor-YageoRC-0603#csv.Footprint Path 3|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap167]
+Options=FieldName=Resistor-YageoRC-0603#csv.Footprint Ref|TableNameOnly=Resistor-YageoRC-0603#csv|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

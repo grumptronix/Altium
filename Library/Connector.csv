@@ -1,3 +1,4 @@
 IPN,Description,Manufacturer,Manufacturer Part Number,Library Ref,Library Path,Footprint Ref,Footprint Path,Footprint Ref 2,Footprint Path 2,Footprint Ref 3,Footprint Path 3,Value,HelpUrl,ComponentLink1Description,ComponentLink1URL
 CON-00001,CONN RCP USB3.1 TYPEC 24P SMD RA,Molex,1054500101,CONN_USB-C,SchLib\Connector.SchLib,1054500101,PcbLib\1054500101.PcbLib,,,,,USB-C,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM219R7YA105KA12-01.pdf,Drawing,https://www.molex.com/pdm_docs/sd/1054500101_sd.pdf
 CON-00002,"AUDIO JACK, 3.5 MM, RT, 5 CONDUC",CUI Devices,SJ2-35564A-SMT-TR,TRS,SchLib\Connector.SchLib,,,,,,,TRS,https://www.cuidevices.com/product/resource/digikeypdf/sj2-35564a-smt-tr.pdf,Datasheet,https://www.cuidevices.com/product/resource/digikeypdf/sj2-35564a-smt-tr.pdf
+CON-00003,CONN HEADER SMD 10POS 1.27MM,Amphenol ICC (FCI),20021121-00010C4LF,ARM10PIN,SchLib\Connector.SchLib,20021121-00010C4LF,PcbLib\Connector.PcbLib,,,,,,,,

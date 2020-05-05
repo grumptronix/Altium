@@ -1,3 +1,2 @@
 IPN,Description,Manufacturer,Manufacturer Part Number,Library Ref,Library Path,Footprint Ref,Footprint Path,Footprint Ref 2,Footprint Path 2,Footprint Ref 3,Footprint Path 3,Value,HelpUrl,ComponentLink1Description,ComponentLink1URL
-NON-00001,300mil Carbon Pill Pattern,NA,NA,Button,SchLib\Switch.SchLib,300MILPATTERN,PcbLib\NonParts.PcbLib,,,,,BTN,,,
-NON-00002,1.3MM test point,NA,NA,TP_CIRCLE,SchLib\TestPoint.SchLib,TP1P3MM,PcbLib\NonParts.PcbLib,,,,,,,,
+XTAL-00001,CRYSTAL 32.7680KHZ 12.5PF SMD,Abracon LLC,ABS07-32.768KHZ-T,XTAL_2PIN,SchLib/Crystal.SchLib,XTAL320X150X90,PcbLib/Crystal.PcbLib,,,,,,,,
